@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Please update your own registry here
         REGISTRY = 'localhost:8085'
-        REGISTRY_IMAGE = "$REGISTRY/private/jenkins-example"
+        REGISTRY_IMAGE = "$REGISTRY/super/jenkins-example"
         DOCKERFILE_PATH = 'Dockerfile'
 
         REGISTRY_USER = credentials('registryUser')
