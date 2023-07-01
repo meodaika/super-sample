@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Please update your own registry here
-        REGISTRY = 'registry.baohoi.com'
+        REGISTRY = 'localhost:8085'
         REGISTRY_IMAGE = "$REGISTRY/private/jenkins-example"
         DOCKERFILE_PATH = 'Dockerfile'
 
